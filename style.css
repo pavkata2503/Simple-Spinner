@@ -1,0 +1,38 @@
+
+
+/* Setting the margin-top to 100px, the background color to #f2eee3, the color to #000, and the
+text-align to center. */
+body {
+  margin-top: 100px;
+  background-color: #f2eee3;
+  color: #000;
+  text-align:center;
+}
+
+/* Setting the font to 2em, the font to Roboto, and the margin-bottom to 40px. */
+h1 {
+  font: 2em 'Roboto', sans-serif;
+  margin-bottom: 40px;
+}
+
+/* This is the CSS for the loading animation. */
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #eae6f2;
+  border-radius: 50%;
+  border-top-color: #a49b34;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+/* Rotating the loading animation. */
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
+/* This is the CSS for the loading animation. */
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
